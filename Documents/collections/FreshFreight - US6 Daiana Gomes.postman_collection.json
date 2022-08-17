@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "ab9c31f3-bfaf-461e-b186-9827fd3c0d10",
+		"name": "FreshFreight - US6 Daiana Gomes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14505525"
+	},
+	"item": [
+		{
+			"name": "Get CalculateFreight",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/fresh-products/freight/calculate?buyer.id=1&shipping.code=40010",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"fresh-products",
+						"freight",
+						"calculate"
+					],
+					"query": [
+						{
+							"key": "buyer.id",
+							"value": "1"
+						},
+						{
+							"key": "shipping.code",
+							"value": "40010"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
