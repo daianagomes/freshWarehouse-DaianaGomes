@@ -25,6 +25,7 @@ public class BuyerService implements IBuyerService {
 
         return repository.save(Buyer.builder()
                 .name(buyerDto.getName())
+                .zipCode(buyerDto.getZipCode())
                 .build());
     }
 

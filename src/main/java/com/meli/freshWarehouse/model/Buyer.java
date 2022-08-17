@@ -29,6 +29,9 @@ public class Buyer {
     @Size(max = 50, message = "Buyer name can't exceed 50 characters.")
     private String name;
 
+    @Column
+    private String zipCode;
+
     @OneToMany(mappedBy = "buyer")
     @JsonIgnore
     private Set<PurchaseOrder> purchaseOrders;

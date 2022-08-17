@@ -20,7 +20,7 @@ public class GenerateWarehouse {
     }
 
     public static final WarehouseDTO newWarehouseDto1() {
-        WarehouseDTO warehouse = new WarehouseDTO("Rua um test",
+        WarehouseDTO warehouse = new WarehouseDTO("00000000", "Rua um test",
                 "São Paulo",
                 "São Paulo",
                 "Brasil",

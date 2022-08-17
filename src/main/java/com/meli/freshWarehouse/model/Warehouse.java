@@ -31,6 +31,9 @@ public class Warehouse {
     @Column(name = "number")
     private Integer number;
 
+    @Column(name="zipCode")
+    private String zipCode;
+
     @OneToMany(mappedBy = "warehouse")
     @JsonIgnore
     private Set<Representative> listRepresentative;
@@ -40,7 +43,8 @@ public class Warehouse {
     private Set<Section> listSection;
 
 
-    public Warehouse(String address, String city, String state, String country, Integer number) {
+    public Warehouse(String zipCode, String address, String city, String state, String country, Integer number) {
+        this.zipCode = zipCode;
         this.address = address;
         this.city = city;
         this.state = state;
