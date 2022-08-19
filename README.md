@@ -6,7 +6,7 @@
 
 O FreshWarehouse é uma aplicação feita para ajudar a administrar um estoque de produtos frescos em um Marketplace. Consultando sua API é possivel passar por todo o processo desde quando um vendedor cadastra um produto, até ele ser adicionado em um lote, enviado para um armazem, até ser adicionado em um carrinho de compras por um usuário.
 
-##Sobre o requisito individual
+## Sobre o requisito individual
 
 Adicionar no classe buyer um novo atributos chamado zipCode(CEP) e o mesmo em Warehouse, isto é, o CEP do comprador e o CEP do armazém. Realizar uma consulta na API externa dos Correios onde são realizados os cálculos baseando - se em seus parâmetros.
 O retorno esperado no GET é o valor do frete e a previsão de entrega com base na quantidade de itens e a distância entre os CEPs do comprador e dor armazém.
